@@ -1,0 +1,430 @@
+@font-face{
+
+    src: url("/Users/charlesblaisfortin/Desktop/Bespoke/BespokeSite V2/SiteRoot/Fonts/SF-Pro-Display-Bold.otf");
+    font-family: sf;
+    
+}
+
+@font-face{
+
+    src: url("/Users/charlesblaisfortin/Desktop/Bespoke/BespokeSite V2/SiteRoot/Fonts/SF-Pro-Display-Regular.otf");
+    font-family: sfn;
+}
+
+
+h1#Bespoke {
+    color: white;
+    font-family: STIXGeneral;
+    padding-top: 50px;
+    padding-left: 100px;
+    font-size: 75px;
+    display:block;
+    margin-bottom: 0px;
+
+
+}
+h1{
+
+    color: #3d4332;
+    font-family: sf;
+padding-top: 50px;
+padding-left: 20px;
+font-size: 75px;
+}
+
+p{
+    font-family: sfn;
+    font-size: 50px;
+}
+
+h2{
+
+    font-family: sf;
+    font-size: 50px;
+    font-weight: bold; 
+}
+img {
+
+    height: 150px;
+    width:150px;
+    display: inline-block;
+    padding-right: 220px;
+    margin-left: 50px;
+    padding-top:10px;
+    display: inline-block;
+    background-color: white;
+}
+
+nav {
+
+    display: inline-block;
+
+background-color: white;
+
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-family: sfn;
+    font-weight: 800;
+    padding-right: 80px;
+    font-size: 20px;
+    display: inline-block;
+background-color: white;
+
+
+}
+
+header {
+    height: 125px;
+    width:100%;
+background-color: white;
+
+}
+
+#Bespoke {
+    background-color: #788264;
+padding-bottom: 0px;
+}
+
+body{margin: 0px;
+
+    width: 100%;
+
+}
+
+p#Bespoke {
+
+   margin-top: 0px;
+    color: black;
+    height: 500px;
+    width: 450px;
+    padding-left: 100px;;
+    font-family: sf;
+    font-size: 55px;
+    display:inline-block;
+    text-align: right;
+    line-height: 1.6;
+
+}
+
+iframe{
+
+    margin-left: 150px;
+    display: inline-block;
+    
+}
+
+#Bespoke p span {
+
+    color: white;
+   font-weight: 800;
+
+    }
+
+#color{
+
+    background-color:#f5f3e9 ;
+}
+    
+section div{
+
+    width: 50%;
+}
+
+section{
+
+    flex-direction: row;
+    display: flex;
+}
+
+section:nth-child(even) {
+
+    flex-direction: row-reverse;
+}
+
+section div.text{
+
+    padding: 60px;
+}
+
+section div.full-image {
+
+    height: 100vh;
+    background-image: url("/Users/charlesblaisfortin/Desktop/Bespoke/BespokeSite V2/SiteRoot/images/media/Untitled design.png");
+    background-size: cover;
+    background-position: center;
+
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+
+}
+
+section div.image-2{
+background-image: url("/Users/charlesblaisfortin/Desktop/Bespoke/BespokeSite V2/SiteRoot/images/media/51230035.JPG");
+
+}
+section div.image-3{
+
+    background-image: url("/Users/charlesblaisfortin/Desktop/Bespoke/BespokeSite V2/SiteRoot/images/media/Whitagram-Image.jpg");
+}
+section div.image-4{
+
+    background-image: url("/Users/charlesblaisfortin/Desktop/Bespoke/BespokeSite V2/SiteRoot/images/media/000528010006.jpg");
+}
+section div.image-5{
+
+    background-image: url("/Users/charlesblaisfortin/Desktop/Bespoke/BespokeSite V2/SiteRoot/images/media/20980029.JPG");
+}
+section div.image-6{
+    background-image: url("/Users/charlesblaisfortin/Desktop/Bespoke/BespokeSite V2/SiteRoot/images/media/000528020010.jpg");
+
+}
+
+#Team img {
+
+    background-color:#f5f3e9 ;
+  width: 200px;
+  height: auto;
+  border-left: solid;
+  border-width: 10px;
+
+
+}
+
+#Contact img{
+    background-color:#f5f3e9 ;
+    height: 100px;
+    width: auto;
+    margin-left: 0px;
+    margin-bottom: 0px;
+
+}
+
+#Insta {
+
+    padding-left: 23px;
+}
+
+p #Social {
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#d{
+
+    font-size: 10px;
+}
+@media only screen and (min-width: 1800px){
+
+    iframe{
+
+        margin-left: 150px;
+        display: inline-block;
+        padding-left: 220px;
+    }
+
+    img {
+
+        height: 150px;
+        width:150px;
+        display: inline-block;
+        padding-right: 600px;
+        margin-left: 50px;
+        padding-top:10px;
+        display: inline-block;
+    }
+
+
+    
+
+}
+
+@media only screen and (max-width: 1799px) and (min-width: 1440px){
+
+    
+    
+      
+}
+
+@media only screen and (max-width: 1439px) and (min-width: 1200px) {
+
+    img {
+
+        height: 150px;
+        width:150px;
+        display: inline-block;
+        padding-right: 0px;
+        margin-left: 50px;
+        padding-top:10px;
+        display: inline-block;
+    }
+
+    
+    iframe{
+
+        margin-left: 150px;
+       display:inline-block;
+       padding: 100px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 1000px) {
+
+    img {
+
+        height: 150px;
+        width:150px;
+        display: inline-block;
+        padding-right: 0px;
+        margin-left: 50px;
+        padding-top:10px;
+        display: inline-block;
+    }
+
+    nav a {
+        color: black;
+        text-decoration: none;
+        font-family: sfn;
+        font-weight: 800;
+        padding-right: 40px;
+        font-size: 20px;
+        display: inline-block;
+    
+
+    }
+
+    iframe{
+
+        margin-left: 150px;
+       display:inline-block;
+       padding: 100px;
+    }
+
+    
+
+     
+
+     
+}
+@media only screen and (max-width: 999px) and (min-width: 768px) {
+
+    img {
+
+        height: 150px;
+        width:150px;
+        display: inline-block;
+        padding-right: 0px;
+        margin-left: 50px;
+        padding-top:10px;
+        display: inline-block;
+    }
+
+    nav a {
+        color: black;
+        text-decoration: none;
+        font-family: sfn;
+        font-weight: 800;
+        padding-right: 10px;
+        font-size: 20px;
+        display: inline-block;
+    
+
+    }
+
+    nav a {
+        color: black;
+        text-decoration: none;
+        font-family: sfn;
+        font-weight: 800;
+        padding-right: 20px;
+        font-size: 16px;
+        display: inline-block;
+
+
+
+    }
+    iframe{
+
+        margin-left: 150px;
+        display: inline-block;
+        padding-bottom: 100px;
+    }
+
+    
+      
+
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    img {
+
+        height: 150px;
+        width:150px;
+        display: inline-block;
+        padding-right: 0px;
+        margin-left: 50px;
+        padding-top:10px;
+        display: inline-block;
+    }
+
+    nav a {
+        color: black;
+        text-decoration: none;
+        font-family: sfn;
+        font-weight: 800;
+        padding-right: 5px;
+        font-size: 10px;
+        display: inline-block;
+
+
+
+    }
+    iframe{
+
+        margin-left: 50px;
+        display: block;
+        padding-bottom: 100px;
+        width: 350px;
+
+    }
+
+    
+h1#Bespoke {
+    color: white;
+    font-family: STIXgeneral;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 75px;
+    display:block;
+    margin-bottom: 0px;
+
+
+}
+p#Bespoke {
+
+    margin-top: 0px;
+     color: black;
+     height: 500px;
+     width: 350px;
+     padding-left: 30px;;
+     font-family: sf;
+     font-size: 55px;
+     display:inline-block;
+     text-align: right;
+
+ }
+
+ 
+
+
+}
