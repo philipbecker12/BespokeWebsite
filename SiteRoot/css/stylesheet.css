@@ -27,14 +27,13 @@ h1{
 
     color: #3d4332;
     font-family: sf;
-padding-top: 50px;
 padding-left: 20px;
-font-size: 75px;
+font-size: 70px;
 }
 
 p{
     font-family: sfn;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 h2{
@@ -47,37 +46,75 @@ img {
 
     height: 150px;
     width:150px;
-    display: inline-block;
+    display: block;
     padding-right: 220px;
     margin-left: 50px;
-    padding-top:10px;
+    padding-top:0px;
     display: inline-block;
     background-color: white;
+    margin-bottom: 0px;
 }
 
+.menu{
+    margin: 0 0 0 0;
+    text-align: right;
+    display: none;
+    padding-right: 50px;
+padding-top: 0px;
+
+
+}
+label{
+
+    margin: 0 40px 0 0;
+    font-size: 30px;
+    line-height: 70px;
+    display: block;
+    cursor: pointer;
+    width: 36px;
+    float: right;
+    padding-top: 60px;
+    padding-right:50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#toggle{
+
+    display: none;
+    margin-bottom: 0px;
+
+}
+
+#toggle:checked + .menu{
+
+    display:block
+    
+}
 nav {
 
-    display: inline-block;
+    display: block;
 
 background-color: white;
+margin-top: 0px;
 
 }
 
 nav a {
     color: black;
     text-decoration: none;
-    font-family: sfn;
-    font-weight: 800;
-    padding-right: 80px;
+    font-family: sf;
     font-size: 20px;
-    display: inline-block;
+    display: block;
 background-color: white;
+margin-top: 0px;
+line-height: 1.5;
 
 
 }
 
 header {
-    height: 125px;
+    height: 135px;
     width:100%;
 background-color: white;
 
@@ -98,14 +135,14 @@ p#Bespoke {
 
    margin-top: 0px;
     color: black;
-    height: 500px;
+    height: 460px;
     width: 450px;
     padding-left: 100px;;
     font-family: sf;
     font-size: 55px;
     display:inline-block;
     text-align: right;
-    line-height: 1.6;
+    line-height: 1.7;
 
 }
 
@@ -186,7 +223,7 @@ section div.image-6{
 #Team img {
 
     background-color:#f5f3e9 ;
-  width: 200px;
+  width: 230px;
   height: auto;
   border-left: solid;
   border-width: 10px;
@@ -218,57 +255,308 @@ p #Social {
 
     font-size: 10px;
 }
+
+#Market {
+    text-align: center;
+    font-size: 65px;
+    margin-bottom: 0px;
+
+}
+
+#Size{
+
+    text-align: center;
+    margin-top: 0px;
+}
+
+#Size2{
+
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 62px;
+    border-bottom: solid;
+}
+
+#Co{
+
+    margin-bottom: 0px;
+
+}
+
+#Ce{
+
+    margin-top: 5px;
+    font-size: 36px;
+}
+
+#ee{
+
+    margin-top: 15px;
+}
+
+#ff{
+
+    margin-top: 15px;
+}
+
+#bb{
+
+    margin-top: 15px;
+}
+
+
 @media only screen and (min-width: 1800px){
 
     iframe{
 
         margin-left: 150px;
-        display: inline-block;
-        padding-left: 220px;
-    }
-
-    img {
-
-        height: 150px;
-        width:150px;
-        display: inline-block;
-        padding-right: 600px;
-        margin-left: 50px;
-        padding-top:10px;
-        display: inline-block;
+        display: inline;
+        padding-left: 180px;
+        width: 800px;
+        height: 450px;
+       
+        
     }
 
 
+    p#Bespoke {
+
+        margin-top: 0px;
+         color: black;
+         height: 500px;
+         width: 450px;
+         padding-left: 100px;;
+         font-family: sf;
+         font-size: 60px;
+         display:inline-block;
+         text-align: right;
+         line-height: 2;
+         padding-bottom: 100px;
+     
+     }
+
+     label{
+
+        margin: 0 40px 0 0;
+        font-size: 32px;
+        line-height: 70px;
+        display: block;
+        cursor: pointer;
+        width: 36px;
+        float: right;
+        padding-top: 60px;
+        padding-right:50px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
     
+    #Team img {
 
+        background-color:#f5f3e9 ;
+      width: 280px;
+      height: auto;
+      border-left: solid;
+      border-width: 10px;
+    
+    
+    }
+
+    #Co{
+
+        margin-bottom: 0px;
+        font-size: 60px;
+    
+    }
+    
+    #Ce{
+    
+        margin-top: 5px;
+        font-size: 45px;
+    }
+    
 }
 
 @media only screen and (max-width: 1799px) and (min-width: 1440px){
 
     
     
-      
+    h1{
+
+        
+        padding-top: 0px;
+    }
+
+    p{
+        font-size: 36px;
+    }
+
+    h1{
+
+        font-size: 65px;
+        padding-top: 0px;
+    }
+    
+    h2{
+
+        font-size: 42px;
+    }
+
+    section div.text{
+
+        padding: 40px;
+    }
+
+    #Co{
+
+        margin-bottom: 0px;
+        font-size: 50px;
+    
+    }
+    
+    #Ce{
+    
+        margin-top: 5px;
+        font-size: 36px;
+    }
+
+    #Market {
+        text-align: center;
+        font-size: 60px;
+        margin-bottom: 0px;
+       
+    
+    }
+    #Size2{
+    
+        text-align: center;
+        margin-top: 0px;
+        padding-bottom: 55px;
+        border-bottom: solid;
+        
+    }
+
+    #Size{
+
+        text-align: center;
+        margin-top: 0px;
+    }
 }
 
 @media only screen and (max-width: 1439px) and (min-width: 1200px) {
 
-    img {
-
-        height: 150px;
-        width:150px;
-        display: inline-block;
-        padding-right: 0px;
-        margin-left: 50px;
-        padding-top:10px;
-        display: inline-block;
-    }
-
+    
     
     iframe{
 
-        margin-left: 150px;
-       display:inline-block;
-       padding: 100px;
+        margin-left: 100px;
+       display: inline;
+       padding-bottom: 100px;
+       width: 500px;
+        height: 250px;
+       
+    }
+    p#Bespoke {
+
+        margin-top: 0px;
+         color: black;
+         height: 400px;
+         width: 450px;
+         padding-left: 100px;;
+         font-family: sf;
+         font-size: 55px;
+         display:inline-block;
+         text-align: right;
+         line-height: 1.7;
+     
+     }
+
+     p{
+
+        font-size: 32px;
+     }
+
+     h1{
+
+        font-size: 60px;
+        padding-top: 0px;
+    }
+    
+    h2{
+
+        font-size: 45px;
+    }
+
+    section div.text{
+
+        padding: 40px;
+    }
+
+    #Co{
+
+        margin-bottom: 0px;
+        font-size: 45px;
+    
+    }
+    
+    #Ce{
+    
+        margin-top: 5px;
+        font-size: 32px;
+    }
+
+    #ee{
+
+        margin-top: 15px;
+        font-size: 32px;
+    }
+    
+    #ff{
+    
+        margin-top: 15px;
+        font-size: 32px;
+    }
+    
+    #bb{
+    
+        margin-top: 15px;
+        font-size: 32px;
+        width:90%;
+    }
+    
+    #Contact img{
+        background-color:#f5f3e9 ;
+        height: 90px;
+        width: auto;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    
+    }
+    
+    #Insta {
+    
+        padding-left: 20px;
+    }
+
+    #Market {
+        text-align: center;
+        font-size: 55px;
+        margin-bottom: 0px;
+       
+    
+    }
+    #Size2{
+    
+        text-align: center;
+        margin-top: 0px;
+        padding-bottom: 50px;
+        border-bottom: solid;
+        
+    }
+
+    #Size{
+
+        text-align: center;
+        margin-top: 0px;
     }
 
 
@@ -277,36 +565,123 @@ p #Social {
 
 @media only screen and (max-width: 1199px) and (min-width: 1000px) {
 
-    img {
-
-        height: 150px;
-        width:150px;
-        display: inline-block;
-        padding-right: 0px;
-        margin-left: 50px;
-        padding-top:10px;
-        display: inline-block;
-    }
-
-    nav a {
-        color: black;
-        text-decoration: none;
-        font-family: sfn;
-        font-weight: 800;
-        padding-right: 40px;
-        font-size: 20px;
-        display: inline-block;
     
-
-    }
+    
 
     iframe{
 
-        margin-left: 150px;
-       display:inline-block;
-       padding: 100px;
+        margin-left: 50px;
+       display: inline;
+       padding-bottom: 100px;
+       width: 500px;
+        height: 250px;
+        padding-right: 30px;
+       
+    }
+    p#Bespoke {
+
+        margin-top: 0px;
+         color: black;
+         height: 400px;
+         width: 450px;
+         padding-left: 100px;;
+         font-family: sf;
+         font-size: 55px;
+         display:inline-block;
+         text-align: right;
+         line-height: 1.7;
+     
+     }
+
+     p{
+
+        font-size: 28px;
+     }
+
+     h1{
+
+        font-size: 50px;
+        padding-top: 0px;
+    }
+    
+    h2{
+
+        font-size: 38px;
     }
 
+    section div.text{
+
+        padding: 40px;
+    }
+
+    #Co{
+
+        margin-bottom: 0px;
+        font-size: 36px;
+    
+    }
+    
+    #Ce{
+    
+        margin-top: 5px;
+        font-size: 24px;
+    }
+    #ee{
+
+        margin-top: 15px;
+        font-size: 28px;
+    }
+    
+    #ff{
+    
+        margin-top: 15px;
+        font-size: 28px;
+    }
+    
+    #bb{
+    
+        margin-top: 15px;
+        font-size: 28px;
+        width:90%;
+    }
+    
+    #Contact img{
+        background-color:#f5f3e9 ;
+        height: 80px;
+        width: auto;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    
+    }
+    
+    #Insta {
+    
+        padding-left: 18px;
+    }
+
+    #Market {
+        text-align: center;
+        font-size: 45px;
+        margin-bottom: 0px;
+       
+    
+    }
+    #Size2{
+    
+        text-align: center;
+        margin-top: 0px;
+        padding-bottom: 41px;
+        border-bottom: solid;
+        
+    }
+
+    #Size{
+
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    
     
 
      
@@ -315,86 +690,161 @@ p #Social {
 }
 @media only screen and (max-width: 999px) and (min-width: 768px) {
 
-    img {
-
-        height: 150px;
-        width:150px;
-        display: inline-block;
-        padding-right: 0px;
-        margin-left: 50px;
-        padding-top:10px;
-        display: inline-block;
-    }
-
-    nav a {
-        color: black;
-        text-decoration: none;
-        font-family: sfn;
-        font-weight: 800;
-        padding-right: 10px;
-        font-size: 20px;
-        display: inline-block;
     
 
-    }
-
-    nav a {
-        color: black;
-        text-decoration: none;
-        font-family: sfn;
-        font-weight: 800;
-        padding-right: 20px;
-        font-size: 16px;
-        display: inline-block;
-
-
-
-    }
+    
     iframe{
 
-        margin-left: 150px;
-        display: inline-block;
-        padding-bottom: 100px;
+        margin-left: 50px;
+       display: inline;
+       padding-bottom: 100px;
+       width: 500px;
+        height: 250px;
+       
     }
 
-    
-      
+    p#Bespoke {
 
+        margin-top: 0px;
+         color: black;
+         height: 400px;
+         width: 450px;
+         padding-left: 100px;;
+         font-family: sf;
+         font-size: 55px;
+         display:inline-block;
+         text-align: right;
+         line-height: 1.7;
+     
+     }
+    p {
+
+font-size: 24px;
+    }
+
+    h1{
+
+        font-size: 45px;
+        padding-top: 0px;
+    }
+    
+    h2{
+
+        font-size:36px;
+    }
+
+    section div.text{
+
+        padding: 40px;
+    }
+      
+    #Co{
+
+        margin-bottom: 0px;
+        font-size: 36px;
+    
+    }
+    
+    #Ce{
+    
+        margin-top: 5px;
+        font-size: 24px;
+    }
+    
+    #Team img {
+    
+        background-color:#f5f3e9 ;
+      width: 170px;
+      height: auto;
+      border-left: solid;
+      border-width: 8px;
+    
+    
+    }
+
+    #ee{
+
+        margin-top: 15px;
+        font-size: 24px;
+    }
+    
+    #ff{
+    
+        margin-top: 15px;
+        font-size: 24px;
+    }
+    
+    #bb{
+    
+        margin-top: 15px;
+        font-size: 24px;
+        width:90%;
+    }
+    
+    #Contact img{
+        background-color:#f5f3e9 ;
+        height: 80px;
+        width: auto;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    
+    }
+    
+    #Insta {
+    
+        padding-left: 20px;
+    }
+    
+    #Market {
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 0px;
+       
+    
+    }
+    #Size2{
+    
+        text-align: center;
+        margin-top: 0px;
+        padding-bottom: 35px;
+        border-bottom: solid;
+        
+    }
+
+    #Size{
+
+        text-align: center;
+        margin-top: 0px;
+    }
 
 
 }
 
 @media only screen and (max-width: 767px) {
 
-    img {
+    label{
 
-        height: 150px;
-        width:150px;
-        display: inline-block;
-        padding-right: 0px;
-        margin-left: 50px;
-        padding-top:10px;
-        display: inline-block;
+        margin: 0 40px 0 0;
+        font-size: 26px;
+        line-height: 70px;
+        display: block;
+        cursor: pointer;
+        width: 36px;
+        float: right;
+        padding-top: 60px;
+        padding-right:0px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
     }
-
-    nav a {
-        color: black;
-        text-decoration: none;
-        font-family: sfn;
-        font-weight: 800;
-        padding-right: 5px;
-        font-size: 10px;
-        display: inline-block;
-
-
-
-    }
+    
     iframe{
 
         margin-left: 50px;
         display: block;
         padding-bottom: 100px;
         width: 350px;
+        padding-top: 0px;
+        margin-top: 0px;
 
     }
 
@@ -404,7 +854,7 @@ h1#Bespoke {
     font-family: STIXgeneral;
     padding-top: 50px;
     padding-left: 50px;
-    font-size: 75px;
+    font-size: 60px;
     display:block;
     margin-bottom: 0px;
 
@@ -414,17 +864,151 @@ p#Bespoke {
 
     margin-top: 0px;
      color: black;
-     height: 500px;
      width: 350px;
-     padding-left: 30px;;
+     height: auto;
+     padding-left: 50px;;
      font-family: sf;
-     font-size: 55px;
-     display:inline-block;
+     font-size: 40px;
+     display:block;
      text-align: right;
+     padding-bottom: 20px;
 
  }
 
- 
+ section{
 
+    display: block;
+ }
+
+ section div {
+
+    width: 100%;
+ }
+
+ section div.text{
+
+    padding: 30px;
+    padding-right: 30px;
+ }
+
+p{
+
+    font-size: 20px;
+    width: 90%;
+}
+
+h2{
+
+    font-size: 30px;
+
+}
+h1{
+
+    font-size: 40px;
+    padding-top: 0px;
+}
+
+section div.full-image{
+
+height: 100vw;
+}
+
+#Market {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 0px;
+    width: 90%;
+
+}
+#Size2{
+
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 35px;
+    border-bottom: solid;
+    width: 90%;
+}
+
+h2{
+
+    font-family: sf;
+    font-size: 32px;
+    font-weight: bold; 
+}
+
+#Co{
+
+    margin-bottom: 0px;
+
+}
+
+#Ce{
+
+    margin-top: 5px;
+    font-size: 24px;
+}
+
+#Team img {
+
+    background-color:#f5f3e9 ;
+  width: 170px;
+  height: auto;
+  border-left: solid;
+  border-width: 8px;
+
+
+}
+
+#ee{
+
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+#ff{
+
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+#bb{
+
+    margin-top: 15px;
+    font-size: 24px;
+    width:90%;
+}
+
+#Contact img{
+    background-color:#f5f3e9 ;
+    height: 80px;
+    width: auto;
+    margin-left: 0px;
+    margin-bottom: 0px;
+
+}
+
+#Insta {
+
+    padding-left: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-family: sf;
+    padding-right: 0px;
+    font-size: 20px;
+    display: block;
+background-color: white;
+margin-top: 0px;
+line-height: 1.3;
+}
+
+header {
+    height: 140px;
+    width:100%;
+background-color: white;
+
+}
 
 }
